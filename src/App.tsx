@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path="/" element={<PokemonList />} />
-          <Route path="/pokemonDetail/" element={<PokemonDetail />} />
+          <Route path="/pokemonDetail/:ID" element={<PokemonDetail />} />
         </Routes>
       </BrowserRouter>
       </Container>
